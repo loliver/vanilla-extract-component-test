@@ -1,0 +1,16 @@
+export declare const h1: string;
+export declare const h2: string;
+export declare const h3: string;
+export declare const body: string;
+export declare const callout: string;
+export declare const caption1: string;
+export declare const caption2: string;
+export declare const footnote: string;
+export declare const headline: string;
+export declare const subheadline: string;
+export declare const zeroMargin: string;
+export declare const invert: string;
+export declare const fade: string;
+export declare const bold: string;
+export declare const headingBlock: string;
+export declare const bodyBlock: string;

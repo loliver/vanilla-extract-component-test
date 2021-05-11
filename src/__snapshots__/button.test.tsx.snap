@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AnzButton /> Component should be rendered as a destructive button 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as a destructive+secondary button 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as a extra-small button 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as a full width button 1`] = `
+<div>
+  <button
+    class="undefined"
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as a large button 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as a medium button 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as a secondary button (importance) 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as a small button 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as a tertiary action button 1`] = `
+<div>
+  <button
+    class=""
+    data-test-id="aButton_button"
+    id="aButton"
+    name="aButton"
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as a tertiary button 1`] = `
+<div>
+  <button
+    class=""
+    data-test-id="aButton_button"
+    id="aButton"
+    name="aButton"
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as a tertiary destructive button 1`] = `
+<div>
+  <button
+    class=""
+    data-test-id="aButton_button"
+    id="aButton"
+    name="aButton"
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as a tertiary peripheral button 1`] = `
+<div>
+  <button
+    class=""
+    data-test-id="aButton_button"
+    id="aButton"
+    name="aButton"
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as an action button 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as an action+secondary button 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered as an peripheral+secondary button 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Component should be rendered without crashing 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Should match snapshot: Justify Centered 1`] = `
+<div>
+  <button
+    class="undefined"
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Medium Centered
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Should match snapshot: aria accessible 1`] = `
+<div>
+  <button
+    aria-expanded="true"
+    class=""
+    type="button"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Should match snapshot: disabled 1`] = `
+<div>
+  <button
+    class=""
+    disabled=""
+    type="button"
+    value="test value"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Should match snapshot: disabled and animate 1`] = `
+<div>
+  <button
+    class=""
+    disabled=""
+    type="button"
+    value="test value"
+  >
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Should match snapshot: icon as child 1`] = `
+<div>
+  <button
+    class=""
+    title="Action menu"
+    type="button"
+  >
+    <span
+      class=""
+    >
+      <span
+        class="undefined"
+      >
+        <span
+          title="Loading icon..."
+        />
+      </span>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Should match snapshot: icon as prop 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span>
+      <span
+        class="undefined"
+      >
+        <span
+          title="Loading icon..."
+        />
+      </span>
+    </span>
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Should match snapshot: icon defaulting to left placement 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span>
+      anz_logo
+    </span>
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Should match snapshot: icon left 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span>
+      anz_logo
+    </span>
+    <span
+      class=""
+    >
+      Button
+    </span>
+  </button>
+</div>
+`;
+
+exports[`<AnzButton /> Should match snapshot: icon right 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <span
+      class="undefined"
+    >
+      Button
+    </span>
+    <span>
+      anz_logo
+    </span>
+  </button>
+</div>
+`;

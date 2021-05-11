@@ -1,0 +1,33 @@
+{
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-syntax-dynamic-import",
+    "babel-plugin-treat",
+    "macros",
+    "@vanilla-extract/babel-plugin"
+  ],
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        "targets": ["last 2 versions", "ie >= 11"]
+      }
+    ],
+    [
+      "@babel/preset-typescript",
+      {
+        "isTSX": true,
+        "allExtensions": true
+      }
+    ]
+  ],
+  "ignore": [
+    "src/**/__snapshots__/*",
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx",
+    "src/**/*.sketch.tsx"
+  ]
+}

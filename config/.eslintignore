@@ -1,0 +1,10 @@
+bin
+/node_modules/
+**/node_modules/
+/legacy/
+/packages-cache
+**/reports
+**/coverage
+*.min.js
+**/dist
+website/src

@@ -1,0 +1,63 @@
+{
+  "collectCoverage": true,
+  "globals": {
+    "ENV": "DEV",
+    "ts-jest": {
+      "tsconfig": "<rootDir>/tsconfig.json",
+      "isolatedModules": true
+    }
+  },
+  "rootDir": "../../../../",
+  "testPathIgnorePatterns": [
+    "/bin/",
+    "/dist/",
+    "/docs/",
+    "/node_modules/",
+    "/tmp/"
+  ],
+  "collectCoverageFrom": [
+    "src/**/*.js",
+    "src/**/*.{ts,tsx}"
+  ],
+  "cacheDirectory": "./tmp/",
+  "coveragePathIgnorePatterns": [
+    ".css.ts",
+    ".sketch.*",
+    ".spec.*",
+    ".stories.*",
+    ".test.*",
+    "<rootDir>/bin/",
+    "<rootDir>/dist/",
+    "<rootDir>/node_modules/",
+    "<rootDir>/reports/",
+    "<rootDir>/src/docs/"
+  ],
+  "transform": {
+    "^.+\\.js?$": "<rootDir>/config/jest.transform.js",
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "transformIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "setupFiles": ["<rootDir>/config/jest/__mocks__/client.js"],
+  "setupFilesAfterEnv": [
+    "<rootDir>/config/jest/jest.hooks.js",
+    "<rootDir>/config/jest/jest.setup.js"
+  ],
+  "coverageDirectory": "<rootDir>/reports/coverage",
+  "testResultsProcessor": "jest-sonar-reporter",
+  "reporters": [
+    "default",
+    [
+      "jest-junit",
+      {
+        "suiteName": "Unit Tests",
+        "outputDirectory": "<rootDir>/reports/unit/"
+      }
+    ]
+  ],
+  "moduleNameMapper": {
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|ico)$": "<rootDir>/config/jest/__mocks__/fileMock.js",
+    "\\.(css|scss)$": "<rootDir>/config/jest/__mocks__/cssMock.js"
+  }
+}

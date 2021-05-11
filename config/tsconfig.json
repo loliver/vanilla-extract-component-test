@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["DOM", "esnext"],
+    "strict": true,
+    "declaration": true,
+    "outDir": "../../../../dist",
+    "sourceMap": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "typeRoots": ["../../../@types", "../../stdlib/types"]
+  },
+  "include": ["../../../../src/**/*"],
+  "exclude": [
+    "node_modules",
+    "../../../../src/**/*.test.tsx",
+    "../../../../src/**/*.stories.tsx"
+  ],
+  "allowTsInNodeModules": true
+}

@@ -1,0 +1,32 @@
+instrumentation:
+    root: .
+    extensions:
+        - .js
+    default-excludes: true
+    excludes: []
+    embed-source: false
+    variable: __coverage__
+    compact: true
+    preserve-comments: false
+    complete-copy: false
+    save-baseline: false
+    baseline-file: ./reports/coverage/coverage-baseline.json
+    include-all-sources: false
+    include-pid: false
+    es-modules: true
+reporting:
+    print: summary
+    dir: ./reports/coverage
+check:
+    global:
+        statements: 90
+        lines: 90
+        branches: 90
+        functions: 90
+        excludes: []
+    each:
+        statements: 90
+        lines: 90
+        branches: 90
+        functions: 90
+        excludes: []

@@ -1,0 +1,13 @@
+__snapshots__/
+examples/
+reports/
+*.spec.js
+*.test.js
+*.stories.js
+jestrc.json
+babel.config.js
+.istanbul.yml
+tmp/
+bin/
+build/
+storybook/
